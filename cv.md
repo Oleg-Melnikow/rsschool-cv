@@ -13,7 +13,7 @@ Hi friends! I’m Front-end Developer. I got a technical education.<br>
 I like what l’ve been studying, and it increases my motivation to learn programming more and more. I’m constantly studying by myself using the professional literature. This is a necessity for achieving my goals.<br>
 I want to professionally develop and improve my skills. I would like to hold on this way and make my dreams come true. 
 
-### My Skills
+### My Skills:
 
 1. HTML5, CSS, SCSS, Material UI;
 2. JavaScript, TypeScript;
@@ -60,7 +60,7 @@ chars.forEach((element) => {
 console.log(uniqueChars);
 ```
 
-### My Experience
+### My Experience:
 
 ##### Application for searching images using Flickr.
 
@@ -69,14 +69,14 @@ __When building the application I used:__
 React-Router-Dom, hooks and etc.*
 
 __Implemented:__
-*division of logic into UI, BLL, DAL;
-*saving, deleting and rendering images from LocalStorage;
-*tracking user activity (if there is no user activity popup pops up);
-*deboucing with a custom hook useDebounce;
-*coverage of application reducers with tests;
-*pagination of images;
-*error processing;
-*redirect to the page not found;
+* division of logic into UI, BLL, DAL;
+* saving, deleting and rendering images from LocalStorage;
+* tracking user activity (if there is no user activity popup pops up);
+* deboucing with a custom hook useDebounce;
+* coverage of application reducers with tests;
+* pagination of images;
+* error processing;
+* redirect to the page not found;
 
 [View source code](https://github.com/Oleg-Melnikow/Search_Picture)<br>
 [Watch app](https://oleg-melnikow.github.io/Search_Picture)<br>
@@ -85,9 +85,9 @@ __Implemented:__
 ### Courses:
 
 RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)<br>
-JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)<>
+JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 
 ### Languages:
 
-English: \- Pre-Intermediate (A2)
+English: \- Pre-Intermediate (A2)<br>
 Russian: \- Native
