@@ -130,6 +130,7 @@ body {
     border-radius: 15px;
     background-color: black;
     color: white;
+    box-sizing: border-box;
 }
 
 .article {
@@ -258,6 +259,94 @@ body {
     top: 0;
     left:55px;
     background: black;
+}
+
+.my-skills {
+    height: 100%;
+    background: #0e0f10;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.skills-wrapper {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.skills-wrapper h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.skills-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+.skills-item {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.skills-item:hover {
+    cursor: pointer;
+}
+
+.skills-item:hover i {
+    color: #25ca7f;
+}
+
+.skills-item:hover h3 {
+    color: white;
+}
+
+.skills-item i {
+    font-size: 100px;
+    color: #ccc;
+}
+
+.skills-item h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ccc;
+}
+
+@media screen and (max-width: 650px) {
+    .rowSkills{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 .footer {
