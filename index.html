@@ -126,6 +126,69 @@
 					</ul>
 				</div>
 			</section>
+			<section class="my-skills" id="languages">
+				<div class="skills-wrapper">
+					<h2>Languages skills</h2>
+					<ul class="skills-list">
+						<li class="skills-item">
+							<h2>English</h2>
+							<h3>Pre-intermediate</h3>
+						</li>
+						<li class="skills-item">
+							<h2>Belarusian</h2>
+							<h3>Native</h3>
+						</li>
+						<li class="skills-item">
+							<h2>Russian</h2>
+							<h3>Native</h3>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="my-skills" id="expample-code">
+				<div class="skills-wrapper">
+					<h2>Code example</h2>
+					<div class="example">
+						<pre>
+							<code data-language = "javascript">
+// 3 ways to remove duplicates in an Array
+
+// 1. Use Set
+
+let chars = ['A', 'B', 'A', 'C', 'B'];
+let uniqueChars = [...new Set(chars)];
+
+console.log(uniqueChars);
+
+
+// 2. Using the indexOf() and filter() methods
+
+let chars = ['A', 'B', 'A', 'C', 'B'];
+
+let dupChars = chars.filter((element, index) => {
+	return chars.indexOf(element) !== index;
+});
+
+console.log(dupChars);
+
+// 3. Using the includes() and forEach() methods
+
+let chars = ['A', 'B', 'A', 'C', 'B'];
+
+let uniqueChars = [];
+chars.forEach((element) => {
+	if (!uniqueChars.includes(element)) {
+		uniqueChars.push(element);
+	}
+});
+
+console.log(uniqueChars);
+								
+							</code>
+						</pre>
+					</div>
+				</div>
+			</section>
 			<section class="my-contact" id="contact">
 				<div class="contact-wrapper">
 					<h2>Contact</h2>
