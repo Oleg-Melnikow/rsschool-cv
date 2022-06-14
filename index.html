@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<nav class="header-nav">
+				<ul class="navigation">
+					<li class="navigation__item">
+						<a href="#home" class="fas fa-home navigation__link"></a>
+					</li>
+					<li class="navigation__item">
+						<a href="#about" class="fas fa-user-tie navigation__link"></a>
+					</li>
+					<li class="navigation__item">
+						<a href="#skills" class="icon-r fas fa-address-book navigation__link"></a>
+					</li>
+					<li class="navigation__item">
+						<a href="#project" class="fas fa-briefcase navigation__link"></a>
+					</li>
+					<li class="navigation__item">
+						<a href="#contact" class="fas fa-envelope navigation__link"></a>
+					</li>
+				</ul>		
+			</nav>
+		</header>
+		<main>
+			<section class="preview" id="home">
+				<div class="preview-wrapper">
+					<div class="greeting">
+						<h1> Hello!</h1>
+						<h2>My name is Oleg</h2>
+						<h2>I'm Front-end developer</h2>
+				</div>
+				</div>
+			</section>
+			<section class="about-me" id="about">
+				<div class="about-wrapper">
+					<h2 class="about-header">
+						About me
+					</h2>
+				</div>
+				<div class="info-block">
+					<div class="article">
+						<h4>Oleg Melnikov</h4>
+					</div>
+					<div class="location">
+						<i class="fas fa-map-marked-alt"></i>
+            			<p> Minsk, Belarus</p>
+					</div>
+					<div class="textInfo">
+						<p>
+							Hi friends! I`m Front-end Developer. I got a technical education.
+							I like what l`ve been studying, and it increases my motivation 
+							to learn programming more and more. I`m constantly studying by myself using the professional 
+							literature. This is a necessity for achieving my goals.
+						</p>
+						<p>
+							I want to professionally develop and improve my skills. 
+							I would like to hold on this way and make my dreams come true.
+						</p>
+					</div>
+				</div>
+				<div class="interests">
+					<div class="interests-header">
+						<h4>My interests</h4>
+					</div>
+					<div class="my-interests">
+						<ul class="interests-list">
+							<li class="interest-item">
+								<i class="fas fa-music"></i>
+								<h6>Music</h6>              
+							</li>
+							<li class="interest-item">
+								<i class="fas fa-book"></i>
+								<h6>Books</h6>             
+							</li>
+							<li class="interest-item">
+								<i class="fas fa-film"></i>
+								<h6>Movies</h6>             
+							</li>
+							<li class="interest-item">
+								<i class="fas fa-futbol"></i>
+								<h6>Football</h6>             
+							</li>
+							<li class="interest-item">
+								<i class="fas fa-paint-brush"></i>
+								<h6>Drawing</h6>             
+							</li>
+							<li class="interest-item">
+								<i class="fas fa-file-code"></i>
+								<h6>Coding</h6>             
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="my-skills" id="skills">
+				<div class="skills-wrapper">
+					<h2>My Skills</h2>
+					<ul class="skills-list">
+						<li class="skills-item">
+							<i class="fab fa-js-square"></i>
+							<h3>JavaScript</h3>
+						</li>
+						<li class="skills-item">
+							<i class="fab fa-html5"></i>
+							<h3>HTML5</h3>
+						</li>
+						<li class="skills-item">
+							<i class="fab fa-css3-alt"></i>
+							<h3>CSS3</h3>
+						</li>
+						<li class="skills-item">
+							<i class="fab fa-react"></i>
+							<h3>React & Redux</h3>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="my-skills" id="languages">
+				<div class="skills-wrapper">
+					<h2>Languages skills</h2>
+					<ul class="skills-list">
+						<li class="skills-item">
+							<h2>English</h2>
+							<h3>Pre-intermediate</h3>
+						</li>
+						<li class="skills-item">
+							<h2>Belarusian</h2>
+							<h3>Native</h3>
+						</li>
+						<li class="skills-item">
+							<h2>Russian</h2>
+							<h3>Native</h3>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="my-skills" id="expample-code">
+				<div class="skills-wrapper">
+					<h2>Code example</h2>
+					<div class="example">
+						<pre>
+							<code data-language = "javascript">
+// 3 ways to remove duplicates in an Array
+
+// 1. Use Set
+
+let chars = ['A', 'B', 'A', 'C', 'B'];
+let uniqueChars = [...new Set(chars)];
+
+console.log(uniqueChars);
+
+
+// 2. Using the indexOf() and filter() methods
+
+let chars = ['A', 'B', 'A', 'C', 'B'];
+
+let dupChars = chars.filter((element, index) => {
+	return chars.indexOf(element) !== index;
+});
+
+console.log(dupChars);
+
+// 3. Using the includes() and forEach() methods
+
+let chars = ['A', 'B', 'A', 'C', 'B'];
+
+let uniqueChars = [];
+chars.forEach((element) => {
+	if (!uniqueChars.includes(element)) {
+		uniqueChars.push(element);
+	}
+});
+
+console.log(uniqueChars);
+								
+							</code>
+						</pre>
+					</div>
+				</div>
+			</section>
+			<section class="my-contact" id="contact">
+				<div class="contact-wrapper">
+					<h2>Contact</h2>
+					<div class="contact-info">
+						<ul class="contact-list">
+							<li class="contact-item">
+								<i class="far fa-paper-plane"></i>
+								<p>oleg.melnikau@gmail.com</p>
+								<span>Email</span>
+							</li>
+							<li class="contact-item">
+								<i class="fas fa-map-marker-alt"></i>
+								<p>Minsk, Belarus</p>
+								<span>Address</span>
+							</li>
+							<li class="contact-item">
+								<i class="fas fa-phone"></i>
+								<p>(+375) 29 383 49 50</p>
+								<span>Phone</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer-wrapper">
+				<div class="box-footer">
+					<div class="copyright-block">
+						<a href="https://rs.school/js" target="_blank">
+							<img src="./assets/image/rs_school_js.svg" alt="rs_school">
+						</a>
+						<p class="copyright">&copy; Copyright 2022</p>
+						<a class="link-git" href="https://github.com/Oleg-Melnikow" target="_blank">
+							<i class="fab fa-github"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>   
+</body>
+</html>
