@@ -5,7 +5,7 @@ body {
 
 .wrapper {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #ccc;
     /* display: flex;
     align-items: center;
@@ -211,7 +211,7 @@ body {
     color: white;
 }
 
-.colInt {
+.interests-list {
     height: 100%;
     width: 100%;
     display: flex;
@@ -219,9 +219,11 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
-.colInt h6 {
+.interests-list h6 {
     margin: 0;
     font-size: 28px;
     font-weight: normal;
@@ -248,7 +250,7 @@ body {
     background-color: black;
 }
 
-.colInt .interest-item:after{
+.interests-list .interest-item:after{
     content: '';
     position: absolute;
     width: 3px;
@@ -256,6 +258,67 @@ body {
     top: 0;
     left:55px;
     background: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background: #4a4f53;
+}
+
+.footer-wrapper {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.copyright-block a:hover {
+    cursor: pointer;
+}
+
+.copyright-block img {
+    height: 30px;
+}
+
+.copyright {
+    margin: 0;
+    color:  #929292;
+    font-size: 20px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #929292;
+}
+
+.link-git i {
+    font-size: 28px;
+    color: #6b6b47;
+}
+
+.link-git i:hover {
+    color: white;
+    text-shadow: 2px 2px 25px #80ffff;
 }
 
 @media only screen and (min-width : 320px) and (max-width : 640px){
