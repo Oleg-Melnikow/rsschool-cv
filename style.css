@@ -211,7 +211,7 @@ body {
     color: white;
 }
 
-.colInt {
+.interests-list {
     height: 100%;
     width: 100%;
     display: flex;
@@ -219,9 +219,11 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
-.colInt h6 {
+.interests-list h6 {
     margin: 0;
     font-size: 28px;
     font-weight: normal;
@@ -248,7 +250,7 @@ body {
     background-color: black;
 }
 
-.colInt .interest-item:after{
+.interests-list .interest-item:after{
     content: '';
     position: absolute;
     width: 3px;
