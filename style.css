@@ -40,7 +40,16 @@ body {
 }
 
 .navigation__item {
+    position: relative;
     list-style-type: none;
+}
+
+.linkText {
+    position: absolute;
+    color: none;
+    opacity: 0;
+    left: 0;
+    top: 0;
 }
 
 .navigation__link {
