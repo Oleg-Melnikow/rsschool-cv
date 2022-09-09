@@ -14,19 +14,29 @@
 			<nav class="header-nav">
 				<ul class="navigation">
 					<li class="navigation__item">
-						<a href="#home" class="fas fa-home navigation__link"></a>
+						<a href="#home" >
+							<i class="fas fa-home navigation__link"></i>
+						</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#about" class="fas fa-user-tie navigation__link"></a>
+						<a href="#about" >
+							<i class="fas fa-user-tie navigation__link"></i>
+						</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#skills" class="icon-r fas fa-address-book navigation__link"></a>
+						<a href="#skills">
+							<i class="icon-r fas fa-address-book navigation__link"></i>
+						</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#project" class="fas fa-briefcase navigation__link"></a>
+						<a href="#project">
+							<i class="fas fa-briefcase navigation__link"></i>
+						</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#contact" class="fas fa-envelope navigation__link"></a>
+						<a href="#contact">
+							<i class="fas fa-envelope navigation__link"></i>
+						</a>
 					</li>
 				</ul>		
 			</nav>
@@ -43,9 +53,7 @@
 			</section>
 			<section class="about-me" id="about">
 				<div class="about-wrapper">
-					<h2 class="about-header">
-						About me
-					</h2>
+					<h2 class="about-header">About me</h2>
 				</div>
 				<div class="info-block">
 					<div class="article">
@@ -53,17 +61,17 @@
 					</div>
 					<div class="location">
 						<i class="fas fa-map-marked-alt"></i>
-            			<p> Minsk, Belarus</p>
+            			<p>Minsk, Belarus</p>
 					</div>
 					<div class="textInfo">
 						<p>
 							Hi friends! I`m Front-end Developer. I got a technical education.
-							I like what l`ve been studying, and it increases my motivation 
-							to learn programming more and more. I`m constantly studying by myself using the professional 
+							I like what l`ve been studying, and it increases my motivation
+							to learn programming more and more. I`m constantly studying by myself using the professional
 							literature. This is a necessity for achieving my goals.
 						</p>
 						<p>
-							I want to professionally develop and improve my skills. 
+							I want to professionally develop and improve my skills.
 							I would like to hold on this way and make my dreams come true.
 						</p>
 					</div>
@@ -120,7 +128,7 @@
 						</li>
 						<li class="skills-item">
 							<i class="fab fa-react"></i>
-							<h3>React & Redux</h3>
+							<h3>React &amp; Redux</h3>
 						</li>
 					</ul>
 				</div>
@@ -164,7 +172,7 @@ console.log(uniqueChars);
 
 let chars = ['A', 'B', 'A', 'C', 'B'];
 
-let dupChars = chars.filter((element, index) => {
+let dupChars = chars.filter(function(element, index) {
 	return chars.indexOf(element) !== index;
 });
 
@@ -175,7 +183,7 @@ console.log(dupChars);
 let chars = ['A', 'B', 'A', 'C', 'B'];
 
 let uniqueChars = [];
-chars.forEach((element) => {
+chars.forEach(function(element) {
 	if (!uniqueChars.includes(element)) {
 		uniqueChars.push(element);
 	}
