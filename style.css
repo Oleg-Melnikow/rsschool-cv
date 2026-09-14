@@ -136,3 +136,87 @@ ul li {
   width: 100%;
   object-fit: cover;
 }
+
+.my-skills {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.skills-wrapper h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.skills-wrapper h3 {
+  font-size: 30px;
+}
+
+.skills-list {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+#languages .skills-list {
+  justify-content: space-around;
+}
+
+.skills-item {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 180px;
+  width: 180px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.skills-item:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 10px #2196f3,
+    0 0 15px #2196f3, 0 0 20px #2196f3;
+}
+
+.skills-item:hover i,
+.skills-item:hover p,
+.skills-item:hover h3 {
+  color: #25ca7f;
+}
+
+
+.skills-item i {
+  font-size: 100px;
+  color: #ccc;
+}
+
+.skills-item p {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ccc;
+}
