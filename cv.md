@@ -83,9 +83,10 @@ React-Router-Dom, hooks and etc._
 
 ### Education:
 
-**Belarusian State University of Informatics and Radioelectronics**
-Industrial electronics
-**JS / Front-End Development the Rolling Scopes School (Issued Sep 2023, Expired Jul 2024)**
+**Belarusian State University of Informatics and Radioelectronics**<br>
+Industrial electronics<br>
+
+**JAVASCRIPT/FRONT-END 2023Q4 (JAVASCRIPT)**<br>
 [Certificate](https://app.rs.school/certificate/g61paur5)
 
 ### Languages:
