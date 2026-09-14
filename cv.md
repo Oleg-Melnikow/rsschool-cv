@@ -58,3 +58,37 @@ chars.forEach((element) => {
 
 console.log(uniqueChars);
 ```
+
+### My Experience:
+
+#### Application for searching images using Flickr.
+
+**When building the application I used:**
+_Material UI, TypeScript, React, Redux, Redux-Thunk, Axios,
+React-Router-Dom, hooks and etc._
+
+**Implemented:**
+
+- division of logic into UI, BLL, DAL;
+- saving, deleting and rendering images from LocalStorage;
+- tracking user activity (if there is no user activity popup pops up);
+- deboucing with a custom hook useDebounce;
+- coverage of application reducers with tests;
+- pagination of images;
+- error processing;
+- redirect to the page not found;
+
+[View source code](https://github.com/Oleg-Melnikow/Search_Picture)<br>
+[Watch app](https://oleg-melnikow.github.io/Search_Picture)<br>
+
+### Education:
+
+**Belarusian State University of Informatics and Radioelectronics**
+Industrial electronics
+**JS / Front-End Development the Rolling Scopes School (Issued Sep 2023, Expired Jul 2024)**
+[Certificate](https://app.rs.school/certificate/g61paur5)
+
+### Languages:
+
+English: \- Pre-Intermediate (A2)<br>
+Russian: \- Native
