@@ -145,7 +145,8 @@ ul li {
   padding: 0;
 }
 
-.skills-wrapper {
+.skills-wrapper,
+.expample-code {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -155,7 +156,8 @@ ul li {
   margin-top: 40px;
 }
 
-.skills-wrapper h2 {
+.skills-wrapper h2,
+.expample-code h2 {
   font-size: 38px;
   font-weight: bold;
 }
@@ -219,4 +221,13 @@ ul li {
   margin-top: 0;
   margin-bottom: 0;
   color: #ccc;
+}
+
+.example pre {
+  color: #cccccc;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+  font-size: 22px;
+  line-height: 21px;
 }
