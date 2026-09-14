@@ -104,11 +104,14 @@ ul li {
   width: 200px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .contact-item a {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
   width: 35px;
   height: 35px;
 }
@@ -146,7 +149,8 @@ ul li {
 }
 
 .skills-wrapper,
-.expample-code {
+.expample-code,
+.education {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -157,12 +161,14 @@ ul li {
 }
 
 .skills-wrapper h2,
-.expample-code h2 {
+.expample-code h2,
+.education h2 {
   font-size: 38px;
   font-weight: bold;
 }
 
-.skills-wrapper h3 {
+.skills-wrapper h3,
+.education h3 {
   font-size: 30px;
 }
 
@@ -230,4 +236,12 @@ ul li {
   text-align: start;
   font-size: 22px;
   line-height: 21px;
+}
+
+.education .skills-item {
+  width: 45%;
+}
+
+.education .skills-item i {
+  font-size: 50px;
 }
