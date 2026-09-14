@@ -29,7 +29,8 @@ main {
   padding: 10px 0;
 }
 
-.about {
+.about,
+.project {
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -150,7 +151,8 @@ a {
 
 .skills-wrapper,
 .expample-code,
-.education {
+.education,
+.experience {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -162,13 +164,15 @@ a {
 
 .skills-wrapper h2,
 .expample-code h2,
-.education h2 {
+.education h2,
+.experience h2 {
   font-size: 38px;
   font-weight: bold;
 }
 
 .skills-wrapper h3,
-.education h3 {
+.education h3,
+.project-info h3 {
   font-size: 30px;
 }
 
@@ -202,7 +206,8 @@ a {
   margin: 10px;
 }
 
-.skills-item:hover {
+.skills-item:hover,
+.project-links a:hover {
   cursor: pointer;
   box-shadow: 0 5px 10px #2196f3,
     0 0 15px #2196f3, 0 0 20px #2196f3;
@@ -244,4 +249,54 @@ a {
 
 .education .skills-item i {
   font-size: 50px;
+}
+
+.experience {
+  margin: 40px 0;
+}
+
+.project {
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-info p {
+  font-size: 24px;
+}
+
+.list-stack {
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-stack li {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #1e1f21;
+  font-size: 20px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.project-links a {
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #1e1f21;
+  font-size: 20px;
+  color: #25ca7f;
+  text-shadow: 0 0 40px green;
 }
